@@ -1,12 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { PrimaryButton } from './primary-button/primary-button';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ PrimaryButton ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('EstudoAngular');
-}
+export class App {}
