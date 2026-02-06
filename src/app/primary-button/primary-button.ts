@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './primary-button.css',
 })
 export class PrimaryButton {
-  limpar() {
-    console.log('Filtro limpo!');
-  }
   filtrar() {
     console.log('Filtro aplicado!');
   }
