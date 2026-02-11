@@ -30,11 +30,6 @@ import { Component } from '@angular/core';
   `,
 })
 export class BotaoFlat {
-  // Fazer injeções de dependência
-  // Criar propriedades
-  // Criar métodos
-  // Utilizar ciclo de vida do Componente
-  // Passar valores para o template
 
   counter = 0;
 
